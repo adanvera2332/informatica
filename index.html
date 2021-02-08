@@ -4,38 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>ejercicio de grid</title>
+    <title>ejemplos practicos flexbox</title>
 </head>
 <body>
-
-   
-    <div class="contenedor">
-    <header class="header">
+    <header class="titulares header">
+        <div class="logo">logo</div>
+        <nav class="menu">
         <ul>
-            <li class="item"><a href="#">contactenos</a></li>
-            <li><a href="#">example</a></li>
-            <li><a href="#">pagina de ejemplo</a></li>
-            <li><a href="#">primera pagina</a></li>
+        <li class="item"><a href="#">inicio</a>
+            <ul class="desple">
+                <li><a href="#">ver</a></li>
+                <li><a href="#">salir</a></li>
+
+            </ul>
+        </li>
+        <li class="item"><a href="#">contenido</a>
+            <ul class="desple">
+                <li><a href="#">fotos</a></li>
+                <li><a href="#">peliculas</a></li>
+
+            </ul>
+        </li>
+        <li class="item"><a href="#">contactos</a>
+            <ul class="desple">
+                <li><a href="#">somos</a></li>
+                <li><a href="#">ubicacion</a></li>
+
+            </ul>
+        </li>
         </ul>
+    </nav>
     </header>
+    <div class="linea"></div>
 
-    <div class="lateral">
-        <p class="pepe">categoria 1</p>
-        <p>categoria 2</p>
-        <p>categoria 3</p>
-        <p>categoria 4</p>
-        <p>categoria 5</p>
-    </div>
-
-    <div class="contenido">
+    <main>
         
-    </div>
+        <article class="hero-image">
+            <div>
+            <h2>Bienvenido</h2>
+        </div>
+        </article>
 
-    <div class="parte-inferior">
-        parte inferior
-    </div>
+        <section class="contenedor">
+            <article class="item">
+                <h2>titulo</h2>
+                <p>
+                    Desarrollarme y crecer tanto profesional como laboral. Colaborar con el crecimiento de la empresa y el grupo de trabajo.Me considero una persona responsable, atento, y muy puntual. Con buen manejo de relaciones interpersonales, facilidad de trabajar en equipo, y buen compañero
+                </p>
+            </article>
+            <article class="item">
+                <img src="bibi.jpg" >
+               
+            </article>
 
-</div>
-    
+        </section>
+        <section class="contenedor reversa">
+            <article class="item">
+                <h2>titulo</h2>
+                <p>
+                    Desarrollarme y crecer tanto profesional como laboral. Colaborar con el crecimiento de la empresa y el grupo de trabajo.Me considero una persona responsable, atento, y muy puntual. Con buen manejo de relaciones interpersonales, facilidad de trabajar en equipo, y buen compañero
+                </p>
+            </article>
+            <article class="item">
+                <img src="bibi.jpg">
+               
+            </article>
+
+        </section>
+    </main>
+
+  
 </body>
 </html>
